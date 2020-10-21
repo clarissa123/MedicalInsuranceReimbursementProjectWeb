@@ -1,0 +1,15 @@
+.cu-text-annotation{
+  &__body {
+    display: flex;
+    justify-content: space-around;
+    .right-identification-doc {
+
+      .doc-header {
+        position: relative;
+      }
+      .doc-content {
+        position: relative;
+      }
+    }
+  }
+}

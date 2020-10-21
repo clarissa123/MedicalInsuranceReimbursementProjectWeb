@@ -1,0 +1,77 @@
+.cu-text-annotation {
+  position: relative;
+  &__body {
+    display: flex;
+    justify-content: space-around;
+
+    .right-identification-doc {
+      background-color: #ffffff;
+      box-shadow: -3px 0px 0px 0px rgba(46, 139, 240, 0.3);
+      margin-left: 3px;
+
+      .doc-header {
+        position: relative;
+      }
+
+      .doc-content {
+        position: relative;
+        width: 100%;
+
+        table {
+          width: 100%;
+          color: #333333;
+
+          td, th {
+            display: block;
+
+            div[class^='td'] {
+              overflow: hidden;
+              text-overflow:ellipsis;
+              white-space: normal;
+
+              &.active {
+                border: 2px solid #409EFF;
+                outline-color: #409EFF;
+                transition: box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+                box-shadow: 0 0 4px 4px rgba(64, 158, 255, 0.33);
+              }
+            }
+          }
+
+          th {
+            text-align: left !important;
+          }
+        }
+      }
+    }
+  }
+
+  .cu-mouse-right-menu {
+    min-width: 140px;
+    max-width: 180px;
+    //box-shadow: 0 6px 16px 0 rgba(149, 149, 149, 0.2);
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    //transition: all 0.05s ease;
+    background-color: #ffffff;
+    padding: 6px 0;
+    border: 0 solid rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 8px 2px rgba(68, 73, 77, 0.16);
+    border-radius: 2px;
+    z-index: 9999;
+    .menu-item {
+      padding: 0 12px 0 28px;
+      font-size: 12px;
+      height: 28px;
+      line-height: 28px;
+      user-select: none;
+      color: rgba(0, 0, 0, 0.88);
+      cursor: pointer;
+      &:hover {
+        background-color: #f5f5f5;
+        color: #409EFF;
+      }
+    }
+  }
+}

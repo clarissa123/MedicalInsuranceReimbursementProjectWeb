@@ -1,0 +1,23 @@
+.el-pagination {
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.el-pagination.is-background .btn-next,
+.el-pagination.is-background .btn-prev,
+.el-pagination.is-background .el-pager li {
+    min-width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.el-pagination.is-background .btn-next.disabled,
+.el-pagination.is-background .btn-next:disabled,
+.el-pagination.is-background .btn-prev.disabled,
+.el-pagination.is-background .btn-prev:disabled,
+.el-pagination.is-background .el-pager li.disabled {
+    background: #ffffff;
+}

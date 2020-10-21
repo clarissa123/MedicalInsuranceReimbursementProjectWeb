@@ -1,0 +1,819 @@
+{
+  "tableHead": {
+    "hospital": {
+      "xmin": {
+        "x": 992,
+        "y": 78
+      },
+      "ymax": {
+        "x": 1580,
+        "y": 135
+      },
+      "text": "成都市妇女儿童中心医院"
+    },
+    "title": {
+      "xmin": {
+        "x": 955,
+        "y": 151
+      },
+      "ymax": {
+        "x": 1580,
+        "y": 225
+      },
+      "text": "住院病人费用汇总清单"
+    },
+    "id": {
+      "xmin": {
+        "x": 147,
+        "y": 289
+      },
+      "ymax": {
+        "x": 514,
+        "y": 328
+      },
+      "text": "人ID:191ll60706"
+    },
+    "code": {
+      "xmin": {
+        "x": 624,
+        "y": 284
+      },
+      "ymax": {
+        "x": 955,
+        "y": 330
+      },
+      "text": "住院号:0463625"
+    },
+    "name": {
+      "xmin": {
+        "x": 1029,
+        "y": 282
+      },
+      "ymax": {
+        "x": 1543,
+        "y": 335
+      },
+      "text": "姓名:刘晓津之了我别:抢救"
+    },
+    "department": {
+      "xmin": {
+        "x": 183,
+        "y": 353
+      },
+      "ymax": {
+        "x": 514,
+        "y": 397
+      },
+      "text": "入院科室:NICU病区"
+    },
+    "beginTimeLabel": {
+      "xmin": {
+        "x": 845,
+        "y": 353
+      },
+      "ymax": {
+        "x": 1065,
+        "y": 395
+      },
+      "text": "入院同期:"
+    },
+    "beginTime": {
+      "xmin": {
+        "x": 1176,
+        "y": 353
+      },
+      "ymax": {
+        "x": 1617,
+        "y": 392
+      },
+      "text": "2019-1i-16H院日期:"
+    },
+    "endTime": {
+      "xmin": {
+        "x": 1764,
+        "y": 351
+      },
+      "ymax": {
+        "x": 1984,
+        "y": 388
+      },
+      "text": "2019-ll-23"
+    }
+  },
+  "tableContentTr": [
+    {
+      "tDdomain": [
+        {
+          "medicineName": {
+            "value": "费用名称",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 367,
+                "y": 404
+              },
+              "ymax": {
+                "x": 551,
+                "y": 452
+              }
+            }
+          },
+          "code": {
+            "value": "医/保编码",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 771,
+                "y": 406
+              },
+              "ymax": {
+                "x": 955,
+                "y": 447
+              }
+            }
+          },
+          "medicineType": {
+            "value": "科室",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 1212,
+                "y": 402
+              },
+              "ymax": {
+                "x": 1396,
+                "y": 452
+              }
+            }
+          },
+          "specs": {
+            "value": "规格",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 1580,
+                "y": 404
+              },
+              "ymax": {
+                "x": 1727,
+                "y": 445
+              }
+            }
+          },
+          "unit": {
+            "value": "单位数量",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 1764,
+                "y": 399
+              },
+              "ymax": {
+                "x": 2095,
+                "y": 452
+              }
+            }
+          },
+          "number": {
+            "value": "金额",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 2168,
+                "y": 399
+              },
+              "ymax": {
+                "x": 2315,
+                "y": 450
+              }
+            }
+          }
+        }
+      ],
+      "trStyle": "1"
+    },
+    {
+      "tDdomain": [
+        {
+          "cost": {
+            "value": "药品费用汇总单:",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 110,
+                "y": 457
+              },
+              "ymax": {
+                "x": 477,
+                "y": 503
+              }
+            }
+          }
+        }
+      ],
+      "trStyle": "0"
+    },
+    {
+      "tDdomain": [
+        {
+          "medicineName": {
+            "value": "10%葡萄糖注射液（双阀100ml）",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 110,
+                "y": 521
+              },
+              "ymax": {
+                "x": 698,
+                "y": 565
+              }
+            }
+          },
+          "medicineNode": {
+            "value": "YP10025621",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 771,
+                "y": 526
+              },
+              "ymax": {
+                "x": 992,
+                "y": 562
+              }
+            }
+          },
+          "medicineType": {
+            "value": "住院药房",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 1102,
+                "y": 521
+              },
+              "ymax": {
+                "x": 1286,
+                "y": 565
+              }
+            }
+          },
+          "specs": {
+            "value": "100ml四川科袋",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 1506,
+                "y": 521
+              },
+              "ymax": {
+                "x": 1837,
+                "y": 565
+              }
+            }
+          },
+          "number": {
+            "value": "12.1200",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 2242,
+                "y": 521
+              },
+              "ymax": {
+                "x": 2425,
+                "y": 560
+              }
+            }
+          }
+        }
+      ],
+      "trStyle": "0"
+    },
+    {
+      "tDdomain": [
+        {
+          "medicineName": {
+            "value": "10%葡萄糖注射液（双阀500ml)",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 147,
+                "y": 583
+              },
+              "ymax": {
+                "x": 698,
+                "y": 636
+              }
+            }
+          },
+          "medicineNode": {
+            "value": "YP00006306",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 771,
+                "y": 590
+              },
+              "ymax": {
+                "x": 992,
+                "y": 629
+              }
+            }
+          },
+          "medicineType": {
+            "value": "住院药房",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 1102,
+                "y": 583
+              },
+              "ymax": {
+                "x": 1286,
+                "y": 636
+              }
+            }
+          },
+          "specs": {
+            "value": "500ml四川科袋",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 1506,
+                "y": 583
+              },
+              "ymax": {
+                "x": 1837,
+                "y": 634
+              }
+            }
+          },
+          "number": {
+            "value": "10.8600",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 2242,
+                "y": 588
+              },
+              "ymax": {
+                "x": 2425,
+                "y": 627
+              }
+            }
+          }
+        }
+      ],
+      "trStyle": "0"
+    },
+    {
+      "tDdomain": [
+        {
+          "medicineName": {
+            "value": "5%葡萄糖注射液(袋）",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 110,
+                "y": 647
+              },
+              "ymax": {
+                "x": 514,
+                "y": 700
+              }
+            }
+          },
+          "medicineNode": {
+            "value": "YP00006308",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 771,
+                "y": 650
+              },
+              "ymax": {
+                "x": 992,
+                "y": 696
+              }
+            }
+          },
+          "medicineType": {
+            "value": "住院药房",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 1102,
+                "y": 650
+              },
+              "ymax": {
+                "x": 1286,
+                "y": 700
+              }
+            }
+          },
+          "specs": {
+            "value": "100ml美大康袋",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 1506,
+                "y": 647
+              },
+              "ymax": {
+                "x": 1837,
+                "y": 698
+              }
+            }
+          },
+          "number": {
+            "value": "15.9500",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 2242,
+                "y": 654
+              },
+              "ymax": {
+                "x": 2389,
+                "y": 691
+              }
+            }
+          }
+        }
+      ],
+      "trStyle": "0"
+    },
+    {
+      "tDdomain": [
+        {
+          "medicineName": {
+            "value": "50%葡萄糖注射液",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 147,
+                "y": 776
+              },
+              "ymax": {
+                "x": 477,
+                "y": 831
+              }
+            }
+          },
+          "medicineNode": {
+            "value": "YPl0050267",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 771,
+                "y": 783
+              },
+              "ymax": {
+                "x": 992,
+                "y": 820
+              }
+            }
+          },
+          "medicineType": {
+            "value": "住院药房",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 1102,
+                "y": 778
+              },
+              "ymax": {
+                "x": 1286,
+                "y": 824
+              }
+            }
+          },
+          "specs": {
+            "value": "20ml湖北科支",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 1506,
+                "y": 774
+              },
+              "ymax": {
+                "x": 1837,
+                "y": 829
+              }
+            }
+          },
+          "number": {
+            "value": "10.2600",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 2242,
+                "y": 783
+              },
+              "ymax": {
+                "x": 2389,
+                "y": 820
+              }
+            }
+          }
+        }
+      ],
+      "trStyle": "0"
+    },
+    {
+      "tDdomain": [
+        {
+          "medicineName": {
+            "value": "多种微量元素注射液（I）",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 110,
+                "y": 840
+              },
+              "ymax": {
+                "x": 661,
+                "y": 893
+              }
+            }
+          },
+          "medicineNode": {
+            "value": "YP10040608",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 771,
+                "y": 847
+              },
+              "ymax": {
+                "x": 992,
+                "y": 889
+              }
+            }
+          },
+          "medicineType": {
+            "value": "住院药房",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 1102,
+                "y": 843
+              },
+              "ymax": {
+                "x": 1286,
+                "y": 893
+              }
+            }
+          },
+          "specs": {
+            "value": "10ml百正药支",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 1506,
+                "y": 840
+              },
+              "ymax": {
+                "x": 1837,
+                "y": 893
+              }
+            }
+          },
+          "number": {
+            "value": "83.4000",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 2242,
+                "y": 847
+              },
+              "ymax": {
+                "x": 2389,
+                "y": 884
+              }
+            }
+          }
+        }
+      ],
+      "trStyle": "0"
+    },
+    {
+      "tDdomain": [
+        {
+          "medicineName": {
+            "value": "氯化钾注射液（高危，基药)",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 147,
+                "y": 907
+              },
+              "ymax": {
+                "x": 661,
+                "y": 960
+              }
+            }
+          },
+          "medicineNode": {
+            "value": "YP10027591",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 771,
+                "y": 911
+              },
+              "ymax": {
+                "x": 992,
+                "y": 955
+              }
+            }
+          },
+          "medicineType": {
+            "value": "住院药房",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 1102,
+                "y": 907
+              },
+              "ymax": {
+                "x": 1286,
+                "y": 957
+              }
+            }
+          },
+          "specs": {
+            "value": "10ml湖北科支",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 1543,
+                "y": 907
+              },
+              "ymax": {
+                "x": 1837,
+                "y": 957
+              }
+            }
+          },
+          "number": {
+            "value": "2.440(",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 2242,
+                "y": 911
+              },
+              "ymax": {
+                "x": 2389,
+                "y": 951
+              }
+            }
+          }
+        }
+      ],
+      "trStyle": "0"
+    },
+    {
+      "tDdomain": [
+        {
+          "medicineName": {
+            "value": "氯化钠注射液（10ml，基药）",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 147,
+                "y": 976
+              },
+              "ymax": {
+                "x": 698,
+                "y": 1024
+              }
+            }
+          },
+          "medicineNode": {
+            "value": "YP10018576",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 735,
+                "y": 978
+              },
+              "ymax": {
+                "x": 992,
+                "y": 1017
+              }
+            }
+          },
+          "medicineType": {
+            "value": "住院药房",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 1102,
+                "y": 976
+              },
+              "ymax": {
+                "x": 1286,
+                "y": 1024
+              }
+            }
+          },
+          "specs": {
+            "value": "10ml中国大多支",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 1543,
+                "y": 976
+              },
+              "ymax": {
+                "x": 1837,
+                "y": 1024
+              }
+            }
+          },
+          "number": {
+            "value": "18.0800",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 2242,
+                "y": 978
+              },
+              "ymax": {
+                "x": 2425,
+                "y": 1015
+              }
+            }
+          }
+        }
+      ],
+      "trStyle": "0"
+    },
+    {
+      "tDdomain": [
+        {
+          "medicineName": {
+            "value": "氯化钠注射液（基，地、100ml软袋yP10025787",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 147,
+                "y": 1038
+              },
+              "ymax": {
+                "x": 992,
+                "y": 1088
+              }
+            }
+          },
+          "medicineType": {
+            "value": "住院药房",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 1102,
+                "y": 1038
+              },
+              "ymax": {
+                "x": 1286,
+                "y": 1084
+              }
+            }
+          },
+          "specs": {
+            "value": "100ml四川科袋",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 1543,
+                "y": 1036
+              },
+              "ymax": {
+                "x": 1837,
+                "y": 1086
+              }
+            }
+          },
+          "number": {
+            "value": "23.9400",
+            "updateFlag": true,
+            "coordinate": {
+              "xmin": {
+                "x": 2242,
+                "y": 1042
+              },
+              "ymax": {
+                "x": 2389,
+                "y": 1079
+              }
+            }
+          }
+        }
+      ],
+      "trStyle": "0"
+    }
+  ]
+}

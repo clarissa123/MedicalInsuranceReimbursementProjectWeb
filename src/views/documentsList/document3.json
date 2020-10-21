@@ -1,0 +1,4388 @@
+{
+  "code": 1000,
+  "data": {
+    "id": "9ca00fd1be3a48fb9b58557574c5e67d",
+    "patient": "刘晓津之子",
+    "gender": null,
+    "cardId": null,
+    "age": null,
+    "company": null,
+    "companyCode": null,
+    "socialSecurityCode": null,
+    "beginTime": null,
+    "endTime": null,
+    "hospitalDay": null,
+    "diagnosis": null,
+    "workStatus": null,
+    "payComplete": null,
+    "hospitalName": null,
+    "hospitalCode": null,
+    "hospitalLevel": null,
+    "totalMoney": null,
+    "flowStatsu": "NLP_SUCCESS",
+    "personType": null,
+    "evidences": [
+      {
+        "id": "d77c659a59b14f38914e3857aa1b0af1",
+        "fileUrl": "//data//sfyb//1584347514983.png",
+        "fileName": "//data//sfyb//1584347514983",
+        "rotationAngle": -1,
+        "orderBy": "0",
+        "tableHead": {
+          "formDate": {
+            "xmin": {
+              "x": 137,
+              "y": 1222
+            },
+            "ymax": {
+              "x": 253,
+              "y": 1237
+            },
+            "text": "2019年11月23日"
+          },
+          "sex": {},
+          "totalMoney": {},
+          "endtime": {},
+          "hospitalDay": {},
+          "diagnosis": {},
+          "begintime": {},
+          "title": {
+            "xmin": {
+              "x": 340,
+              "y": 53
+            },
+            "ymax": {
+              "x": 615,
+              "y": 84
+            },
+            "text": "住院病人费用汇总清单"
+          },
+          "formUser": {},
+          "name": {
+            "xmin": {
+              "x": 347,
+              "y": 104
+            },
+            "ymax": {
+              "x": 564,
+              "y": 122
+            },
+            "text": "刘晓津之子"
+          },
+          "hospital": {
+            "xmin": {
+              "x": 347,
+              "y": 28
+            },
+            "ymax": {
+              "x": 564,
+              "y": 49
+            },
+            "text": "成都市妇女儿童中心医院"
+          },
+          "department": {},
+          "age": {}
+        },
+        "totalCost": 698.5001,
+        "tableContentTr": [
+          {
+            "id": "95a1cdafd01341e1a284c778a87448e5",
+            "trStyle": "1",
+            "trCoordinate": {
+              "xmin": {
+                "x": 123,
+                "y": 147
+              },
+              "ymax": {
+                "x": 839,
+                "y": 164
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "ec9a761c035f4fa38e8b91a291ab0230",
+                "groupId": "a3a21465676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "费用名称",
+                "coordinate": {
+                  "xmin": {
+                    "x": 123,
+                    "y": 147
+                  },
+                  "ymax": {
+                    "x": 217,
+                    "y": 167
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "0"
+              },
+              {
+                "id": "dd14e8fd68ed49099908db621e2ca1de",
+                "groupId": "a3a21465676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "医保编码",
+                "coordinate": {
+                  "xmin": {
+                    "x": 260,
+                    "y": 147
+                  },
+                  "ymax": {
+                    "x": 347,
+                    "y": 166
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "8cdbc6a5eddb420889502e6533da1608",
+                "groupId": "a3a21465676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "47f22fdcb90e4e569282118235dc097b",
+                "groupId": "a3a21465676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": "规格",
+                "coordinate": {
+                  "xmin": {
+                    "x": 564,
+                    "y": 145
+                  },
+                  "ymax": {
+                    "x": 622,
+                    "y": 163
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "3"
+              },
+              {
+                "id": "14818532191b486b969a16c284c52b1c",
+                "groupId": "a3a21465676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "单位",
+                "coordinate": {
+                  "xmin": {
+                    "x": 629,
+                    "y": 144
+                  },
+                  "ymax": {
+                    "x": 695,
+                    "y": 163
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "4"
+              },
+              {
+                "id": "105377cb01a647bca3d71b1ae89ee92f",
+                "groupId": "a3a21465676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "1e9e06153a1949a7ab0a0d18e78efa50",
+                "groupId": "a3a21465676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "e2b5e335f7814149b1a7c978c590f2e3",
+                "groupId": "a3a21465676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "金额",
+                "coordinate": {
+                  "xmin": {
+                    "x": 760,
+                    "y": 142
+                  },
+                  "ymax": {
+                    "x": 839,
+                    "y": 164
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "7df92d9a898f4e878fde14f168a5be10",
+            "trStyle": "1",
+            "trCoordinate": {
+              "xmin": {
+                "x": 36,
+                "y": 167
+              },
+              "ymax": {
+                "x": 181,
+                "y": 185
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "12365f779ea14e55a7acfbcddaace608",
+                "groupId": "a3a21466676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "非药品费用汇总单:",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 167
+                  },
+                  "ymax": {
+                    "x": 181,
+                    "y": 185
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "0"
+              },
+              {
+                "id": "32216ca90dde42c6b8a4fffbea3c04bd",
+                "groupId": "a3a21466676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "1"
+              },
+              {
+                "id": "8409655b2cf541c5b7d260a74badef29",
+                "groupId": "a3a21466676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "803242bb443f47d099ee848edc4f4553",
+                "groupId": "a3a21466676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "b74383cc2f8d4b78bd06e6077ce98094",
+                "groupId": "a3a21466676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "4"
+              },
+              {
+                "id": "68a2dccddf9f4078af549f58352aa8dc",
+                "groupId": "a3a21466676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "80f855ad1e894363ac1ee7e9e5ef281d",
+                "groupId": "a3a21466676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "bead467e7d794973a2ee1254d1e27d50",
+                "groupId": "a3a21466676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "e51c7cc62cf243759a74b3ce714388c2",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 36,
+                "y": 378
+              },
+              "ymax": {
+                "x": 868,
+                "y": 392
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "c13bf543c60d452397710d7e1e3dbe0a",
+                "groupId": "a3a23b7f676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "一次性鼻导管",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 378
+                  },
+                  "ymax": {
+                    "x": 166,
+                    "y": 398
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "1c2875c2c7454f19ac1fcebb106f265a",
+                "groupId": "a3a23b7f676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "YGYA100011",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 380
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 395
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "0668b0b3ee494a9abdaa39b93f683192",
+                "groupId": "a3a23b7f676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "85d26d32589d47e6a3649b58e9c0aa07",
+                "groupId": "a3a23b7f676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "6a69ee377ad54e4bb9c9f083f38da043",
+                "groupId": "a3a23b7f676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "根",
+                "coordinate": {
+                  "xmin": {
+                    "x": 543,
+                    "y": 379
+                  },
+                  "ymax": {
+                    "x": 673,
+                    "y": 394
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "b50a76cdcea9447c8cb82648c63b7a06",
+                "groupId": "a3a23b7f676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "44fbc812baab40f496fb72a30562cb64",
+                "groupId": "a3a23b7f676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "ce7da92440704b908989cb2e03c190fe",
+                "groupId": "a3a23b7f676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "123.0000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 796,
+                    "y": 378
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 392
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "5b40fdb303cb46959aa7df98ebe7d1a4",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 21,
+                "y": 404
+              },
+              "ymax": {
+                "x": 868,
+                "y": 416
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "d762185c73d142acb784db29fa78ed11",
+                "groupId": "a3a23b80676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "一次性使用抽液器包",
+                "coordinate": {
+                  "xmin": {
+                    "x": 21,
+                    "y": 404
+                  },
+                  "ymax": {
+                    "x": 181,
+                    "y": 422
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "21170ba8cee4480a8fec052d9f082ad6",
+                "groupId": "a3a23b80676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "YYZF000000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 404
+                  },
+                  "ymax": {
+                    "x": 362,
+                    "y": 419
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "7dfe8442e13740b2967e64ecede1a3a9",
+                "groupId": "a3a23b80676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "34bf5c4764714e17883e6c73b38a8574",
+                "groupId": "a3a23b80676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "4ab09b00194943e5a7f95a64abf514d9",
+                "groupId": "a3a23b80676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "支",
+                "coordinate": {
+                  "xmin": {
+                    "x": 543,
+                    "y": 403
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 419
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "c386930d568a49af91acd951b4485f6f",
+                "groupId": "a3a23b80676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "6059a2f786244da39b95567d00707f62",
+                "groupId": "a3a23b80676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "532115017bbe415e86e7cf9fe2582dec",
+                "groupId": "a3a23b80676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "17.8000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 803,
+                    "y": 402
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 416
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "067cbbafa9b44d22ac557b2465a35ed9",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 28,
+                "y": 427
+              },
+              "ymax": {
+                "x": 868,
+                "y": 440
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "db73187061e247c18846329655b1cc27",
+                "groupId": "a3a23b81676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "一次性胃管",
+                "coordinate": {
+                  "xmin": {
+                    "x": 28,
+                    "y": 427
+                  },
+                  "ymax": {
+                    "x": 130,
+                    "y": 445
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "6787eaf9e2bc4dc389082b4bb3a3dd41",
+                "groupId": "a3a23b81676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "YYGYA100007",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 428
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 442
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "eeba72c59d5f441b84d59ab5397aeaa5",
+                "groupId": "a3a23b81676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "c0f365c560224ce7bf74c63a58d1919c",
+                "groupId": "a3a23b81676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "c85353446ce74681aca6eacdbf4c5801",
+                "groupId": "a3a23b81676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "根",
+                "coordinate": {
+                  "xmin": {
+                    "x": 543,
+                    "y": 425
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 444
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "9b7a96b99e694cc291274f92b5e84c3f",
+                "groupId": "a3a23b81676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "a98cd28e5dee48f29cc665b2a4e9d500",
+                "groupId": "a3a23b81676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "e1eedb187a05457cb15fe9420b30ee99",
+                "groupId": "a3a23b81676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "2.8000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 810,
+                    "y": 425
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 440
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "5b55de60d9414ee094a05e71de9c9e6e",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 36,
+                "y": 451
+              },
+              "ymax": {
+                "x": 868,
+                "y": 464
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "f8a01ce84f8e480a8c006bccc10d3788",
+                "groupId": "a3a23b82676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "一次性吸痰管",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 451
+                  },
+                  "ymax": {
+                    "x": 152,
+                    "y": 468
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "fbf9d25e1bcb46428fd3dcfb9ddaf448",
+                "groupId": "a3a23b82676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "YYGYA100010",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 452
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 466
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "288349cd96a449d7beba259f0cded8fa",
+                "groupId": "a3a23b82676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "913a797be0c8499ca92d69b1858cbf04",
+                "groupId": "a3a23b82676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "8e5cc11eb6384e358fa5bd6b1da17936",
+                "groupId": "a3a23b82676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "根",
+                "coordinate": {
+                  "xmin": {
+                    "x": 543,
+                    "y": 451
+                  },
+                  "ymax": {
+                    "x": 680,
+                    "y": 467
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "0cb4541abbb44ac7b7b7b830dda418e5",
+                "groupId": "a3a23b82676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "975679cd05834ac3be00852841904917",
+                "groupId": "a3a23b82676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "6edc2ed99e774cc19db4f8579fa342d5",
+                "groupId": "a3a23b82676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "4.5000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 810,
+                    "y": 450
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 464
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "222f0cc6bbf1463491e88c90f485386c",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 28,
+                "y": 474
+              },
+              "ymax": {
+                "x": 868,
+                "y": 488
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "91662672af1d4b3eacad975c53ed8e0c",
+                "groupId": "a3a23b83676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "一次性吸痰管。",
+                "coordinate": {
+                  "xmin": {
+                    "x": 28,
+                    "y": 474
+                  },
+                  "ymax": {
+                    "x": 152,
+                    "y": 492
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "21b20b15b9074160aa9f860643a3634b",
+                "groupId": "a3a23b83676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "YYGYA100010",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 475
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 490
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "e026eb3fbc344a7a8685881166b48ea8",
+                "groupId": "a3a23b83676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "4c492e9ce2e1430a9c8100c0f2e3841e",
+                "groupId": "a3a23b83676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "2572b4456a704a43aeed3e74412e2a46",
+                "groupId": "a3a23b83676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "个",
+                "coordinate": {
+                  "xmin": {
+                    "x": 543,
+                    "y": 474
+                  },
+                  "ymax": {
+                    "x": 658,
+                    "y": 489
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "8a13914236964c73b88cbf36e76d855c",
+                "groupId": "a3a23b83676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "c4a2e35d6e2e4480bb547927ff85cd89",
+                "groupId": "a3a23b83676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "61495050603d4f5eb81c408589e060fa",
+                "groupId": "a3a23b83676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "3.1000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 810,
+                    "y": 473
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 488
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "b62a0f92969d427bbd41f352288beebf",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 28,
+                "y": 498
+              },
+              "ymax": {
+                "x": 868,
+                "y": 511
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "c1e8e40fcae7496eb28da8d88dbdfa21",
+                "groupId": "a3a23b84676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "一次性血氧探头",
+                "coordinate": {
+                  "xmin": {
+                    "x": 28,
+                    "y": 498
+                  },
+                  "ymax": {
+                    "x": 181,
+                    "y": 518
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "0"
+              },
+              {
+                "id": "8f06900761d04d758d3681e273ad61eb",
+                "groupId": "a3a23b84676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "YYZF000000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 500
+                  },
+                  "ymax": {
+                    "x": 362,
+                    "y": 514
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "989643429b8c4de9ac8f395fd3de58c1",
+                "groupId": "a3a23b84676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "5bcdb961d837456598f5518f0301e274",
+                "groupId": "a3a23b84676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "3dd6531aa29e4204a0669fd0487ee184",
+                "groupId": "a3a23b84676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "针",
+                "coordinate": {
+                  "xmin": {
+                    "x": 543,
+                    "y": 497
+                  },
+                  "ymax": {
+                    "x": 593,
+                    "y": 514
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "17f9b8d56c674b60b1a3c5dcdcb23b19",
+                "groupId": "a3a23b84676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "5f5c6707385549b4ad798da56244d10f",
+                "groupId": "a3a23b84676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "f1515251d8824cf0bdd2259acd41cdd9",
+                "groupId": "a3a23b84676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "41.0000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 803,
+                    "y": 497
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 511
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "fb37f784233544ce9598504cfaeb8cbd",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 36,
+                "y": 523
+              },
+              "ymax": {
+                "x": 868,
+                "y": 534
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "1ebf4d83c5f147eda847b61c9f124929",
+                "groupId": "a3a23b85676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "乙型肝炎e抗体测定（Anti-HBe）",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 523
+                  },
+                  "ymax": {
+                    "x": 260,
+                    "y": 539
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "5d99ba548e824a95bfeee7c7f7fa8248",
+                "groupId": "a3a23b85676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "Z1250403007",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 523
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 538
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "1"
+              },
+              {
+                "id": "348a91b7976441f89601a61315d08ed6",
+                "groupId": "a3a23b85676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "7939a458a47f453799873e02fc5d33d1",
+                "groupId": "a3a23b85676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "023f1b6d0a534718bf9891ee64fd1c20",
+                "groupId": "a3a23b85676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "项",
+                "coordinate": {
+                  "xmin": {
+                    "x": 521,
+                    "y": 520
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 539
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "a4c6a3c7f55f434485d0f7b2e2f97cd3",
+                "groupId": "a3a23b85676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "4454680e012743e7a1855ba932a8aee2",
+                "groupId": "a3a23b85676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "cc366886f06c41a498e9dc19bda30db6",
+                "groupId": "a3a23b85676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "4.5000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 810,
+                    "y": 520
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 534
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "cb5a0f8abbb54e54a3a838a4a4537d9f",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 36,
+                "y": 545
+              },
+              "ymax": {
+                "x": 868,
+                "y": 559
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "6f3cb60ec47447d7a45b57cf12969231",
+                "groupId": "a3a23b86676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "乙型肝炎e抗原测定（HBeAg）",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 545
+                  },
+                  "ymax": {
+                    "x": 231,
+                    "y": 564
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "2f3318678ae14925bfd350b3ce47f54a",
+                "groupId": "a3a23b86676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "Z250403006",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 546
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 561
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "263ad51e76f541799d8340d64f0ad925",
+                "groupId": "a3a23b86676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "0e362574e32341489c9ee80bdb56d448",
+                "groupId": "a3a23b86676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "a952cf39bb14456ea49ce164726e893c",
+                "groupId": "a3a23b86676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "项",
+                "coordinate": {
+                  "xmin": {
+                    "x": 521,
+                    "y": 543
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 563
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "3fcf54d326544095a73b738e613b9ab3",
+                "groupId": "a3a23b86676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "834bdb65120a448f9f69db11006322a5",
+                "groupId": "a3a23b86676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "ea3c98418a254f39ac99369edf2ce3b9",
+                "groupId": "a3a23b86676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "4.5000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 810,
+                    "y": 544
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 559
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "6dc816dc131b4fc0bf3ddb21b1b50478",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 36,
+                "y": 570
+              },
+              "ymax": {
+                "x": 868,
+                "y": 582
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "565b2cca179646b1a2087fb5a8be3c69",
+                "groupId": "a3a23b87676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "乙型肝炎表面抗体测定（Amt）",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 570
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 587
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "2cff369e901e44e193a9935752901045",
+                "groupId": "a3a23b87676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "HBsZ250403005",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 570
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 587
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "1"
+              },
+              {
+                "id": "f9ed9f149be94fffa38ad3de7ac4a464",
+                "groupId": "a3a23b87676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "0c3fe27d2b7749868afda57e7c926050",
+                "groupId": "a3a23b87676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "78d774689da4453e9f3e0eb268f3187f",
+                "groupId": "a3a23b87676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "项",
+                "coordinate": {
+                  "xmin": {
+                    "x": 521,
+                    "y": 566
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 586
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "d869e55ee7c5449cabe3814be61ce0f7",
+                "groupId": "a3a23b87676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "b1a261460d2445228834f6634991d533",
+                "groupId": "a3a23b87676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "922470b70d8f4664a7d28ccab1f87468",
+                "groupId": "a3a23b87676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "4.5000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 810,
+                    "y": 568
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 582
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "289562f58825448989b92c0f788a7c9e",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 28,
+                "y": 592
+              },
+              "ymax": {
+                "x": 868,
+                "y": 606
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "6eaca72c754b42dab28769022ec8bfd0",
+                "groupId": "a3a23b88676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "乙型肝炎表面抗原测定（HBsAg）",
+                "coordinate": {
+                  "xmin": {
+                    "x": 28,
+                    "y": 592
+                  },
+                  "ymax": {
+                    "x": 260,
+                    "y": 611
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "b73ad7cd032a4951a2872f64efb999e0",
+                "groupId": "a3a23b88676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "ZL250403004",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 595
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 609
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "432e34498e3c496798d4585e75b1601a",
+                "groupId": "a3a23b88676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "44c877a7f0564c4d8ff2cdf4132d5d32",
+                "groupId": "a3a23b88676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "2ed0cbbecd4f4c3ba7da8d8d3a0a0a45",
+                "groupId": "a3a23b88676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "项",
+                "coordinate": {
+                  "xmin": {
+                    "x": 521,
+                    "y": 591
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 611
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "2017e83982c44e8daf1cac90fe369674",
+                "groupId": "a3a23b88676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "ae8d8062c38f4d0c957d002550e5f5fe",
+                "groupId": "a3a23b88676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "74868c4173674301b3e535fc989b26df",
+                "groupId": "a3a23b88676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "4.5000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 810,
+                    "y": 592
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 606
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "d94beb8e6b644f72b958f17b2ec5774b",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 36,
+                "y": 192
+              },
+              "ymax": {
+                "x": 868,
+                "y": 204
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "4fa923a8d88740a6835b7ecd129bcda1",
+                "groupId": "a3a21467676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "静脉延长管",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 192
+                  },
+                  "ymax": {
+                    "x": 101,
+                    "y": 208
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "b457e54b11b44a9791abe18d5c2dbfc6",
+                "groupId": "a3a21467676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "YYZF000000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 191
+                  },
+                  "ymax": {
+                    "x": 362,
+                    "y": 206
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "12cc81ac73ce42f590bcb0ac0008ec06",
+                "groupId": "a3a21467676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "190c9f2dccc24cdda7912c71026a84a1",
+                "groupId": "a3a21467676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "6cb713a2da2a4ace876ea455e7f213e8",
+                "groupId": "a3a21467676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "1",
+                "coordinate": {
+                  "xmin": {
+                    "x": 543,
+                    "y": 187
+                  },
+                  "ymax": {
+                    "x": 608,
+                    "y": 208
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "48ab45795d8442018e3d9c52c19d79e2",
+                "groupId": "a3a21467676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "968dff0c67f94d60965b256491ae2601",
+                "groupId": "a3a21467676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "30c389ab16d640e3b293d09fb759f465",
+                "groupId": "a3a21467676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "8.1200",
+                "coordinate": {
+                  "xmin": {
+                    "x": 803,
+                    "y": 189
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 204
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "c9b302c32f6446a8bef8930f700fd097",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 43,
+                "y": 617
+              },
+              "ymax": {
+                "x": 868,
+                "y": 630
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "74a7fedc477a417e8c4915f098aae675",
+                "groupId": "a3a23b89676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "乙型肝炎病毒外膜蛋白前S1抗原测定",
+                "coordinate": {
+                  "xmin": {
+                    "x": 43,
+                    "y": 617
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 635
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "b5510ff8d17e4473ad28323da86ba200",
+                "groupId": "a3a23b89676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "1ZL250403011",
+                "coordinate": {
+                  "xmin": {
+                    "x": 43,
+                    "y": 617
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 635
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "1"
+              },
+              {
+                "id": "c77501236ba1422295895f199aaf024d",
+                "groupId": "a3a23b89676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "0363d3b75a224fa2a13681932e792b19",
+                "groupId": "a3a23b89676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "4c59e20959cb4f8aa581456faf1247f9",
+                "groupId": "a3a23b89676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "项",
+                "coordinate": {
+                  "xmin": {
+                    "x": 521,
+                    "y": 614
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 635
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "b186a5eda1d84299bb2fc2236691f070",
+                "groupId": "a3a23b89676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "b79e9736d26b4709887969e789e86bb9",
+                "groupId": "a3a23b89676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "2190b963c4a045dda0cbade4d298a95c",
+                "groupId": "a3a23b89676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "30.0000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 803,
+                    "y": 616
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 630
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "b612363662004e94aca517873cd6b44c",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 36,
+                "y": 641
+              },
+              "ymax": {
+                "x": 868,
+                "y": 653
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "87de336ea9e64cdb9108812048f860ae",
+                "groupId": "a3a23b8a676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "乙型肝炎核心抗体测定（Ant）",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 641
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 659
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "7c0d3f41bb244532ad67acf24638611d",
+                "groupId": "a3a23b8a676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "HBc1Z250403009",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 641
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 659
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "1"
+              },
+              {
+                "id": "8292b58438b44e7cbbc5c45fb67f42cf",
+                "groupId": "a3a23b8a676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "5102997654264280ae48c2047fdc55c0",
+                "groupId": "a3a23b8a676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "896a67a1b32a4b05a3d9e28c30715ad7",
+                "groupId": "a3a23b8a676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "项",
+                "coordinate": {
+                  "xmin": {
+                    "x": 521,
+                    "y": 638
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 657
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "f0a6dbb3875140b3a64d59af9c8dec2a",
+                "groupId": "a3a23b8a676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "d348cd8685a247ec967c5056ce12937a",
+                "groupId": "a3a23b8a676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "409f855f06794823beab3114410b699b",
+                "groupId": "a3a23b8a676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "4.5000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 810,
+                    "y": 639
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 653
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "c33ba39c2c934d03b3f79bd1d269ce76",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 36,
+                "y": 665
+              },
+              "ymax": {
+                "x": 868,
+                "y": 677
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "f218d3e7668f46fcb1099ccd61f34f89",
+                "groupId": "a3a23b8b676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "引流管冲洗",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 665
+                  },
+                  "ymax": {
+                    "x": 130,
+                    "y": 682
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "39d06297a6b84e9a8d2d69e72ef12f2c",
+                "groupId": "a3a23b8b676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "ZZF00000000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 664
+                  },
+                  "ymax": {
+                    "x": 383,
+                    "y": 681
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "42a72bc3c3d2438c8a4b7bdc3c61f6e0",
+                "groupId": "a3a23b8b676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "9c2637ee8db64d488ff6c98662d45ab3",
+                "groupId": "a3a23b8b676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "f66879cba97f4ee8bceeb9775c7eafa7",
+                "groupId": "a3a23b8b676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "日",
+                "coordinate": {
+                  "xmin": {
+                    "x": 543,
+                    "y": 662
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 678
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "909a1d16cee04acc9aa4f0956ebf1481",
+                "groupId": "a3a23b8b676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "c6f471a6a7b14002ab6ee09d2028646e",
+                "groupId": "a3a23b8b676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "b7b1bd6db7fa4eec965fb9c018336c15",
+                "groupId": "a3a23b8b676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "45.0000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 796,
+                    "y": 663
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 677
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "a0b91c8d04254e3989b8deba7be754a1",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 36,
+                "y": 687
+              },
+              "ymax": {
+                "x": 868,
+                "y": 701
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "ce983b89c48842819f5c0f7dd0a35813",
+                "groupId": "a3a2629c676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "引流管引流儿科加收",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 687
+                  },
+                  "ymax": {
+                    "x": 195,
+                    "y": 706
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "0"
+              },
+              {
+                "id": "bf4ee6b90b2a4808a255c13a0d27b554",
+                "groupId": "a3a2629c676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "ZZF000000000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 689
+                  },
+                  "ymax": {
+                    "x": 383,
+                    "y": 704
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "a42bb763845f4513b9b7523a8c516f4f",
+                "groupId": "a3a2629c676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "a0fcefe877224f46bad5d9c91fe1c415",
+                "groupId": "a3a2629c676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "737a0b5ffa544835bdf872b5e42819d1",
+                "groupId": "a3a2629c676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "日",
+                "coordinate": {
+                  "xmin": {
+                    "x": 543,
+                    "y": 687
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 705
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "feb49eddca4b472ea48233a31ae287e1",
+                "groupId": "a3a2629c676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "a4bd4425efaa4680a79b9ccdaf0331a4",
+                "groupId": "a3a2629c676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "9a24579fbdd84a7786a4c36ba120119b",
+                "groupId": "a3a2629c676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "9.0000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 810,
+                    "y": 686
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 701
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "24c921ef75fd4cd6adb354ebc34cd06c",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 36,
+                "y": 712
+              },
+              "ymax": {
+                "x": 868,
+                "y": 726
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "2ea8e3d71ec3480aa8ba515182ac678b",
+                "groupId": "a3a2629d676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "预充式导管冲洗器",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 712
+                  },
+                  "ymax": {
+                    "x": 181,
+                    "y": 731
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "0"
+              },
+              {
+                "id": "99c862884ad646829da580f07043c05a",
+                "groupId": "a3a2629d676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "YYZF000000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 713
+                  },
+                  "ymax": {
+                    "x": 362,
+                    "y": 728
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "dc9600f462be4270ada341f3a11613fe",
+                "groupId": "a3a2629d676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "be9ca459574d414d9bc8a3a96052d323",
+                "groupId": "a3a2629d676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "a63b6e9cb24542dcb52aa1614cedcefa",
+                "groupId": "a3a2629d676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "支",
+                "coordinate": {
+                  "xmin": {
+                    "x": 550,
+                    "y": 713
+                  },
+                  "ymax": {
+                    "x": 673,
+                    "y": 730
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "1d2a086f5fa148cfae924294257f7981",
+                "groupId": "a3a2629d676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "66f765096eb2412ba1f373932e6c2d47",
+                "groupId": "a3a2629d676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "6e2e7a4b33164bc38c0451deee710706",
+                "groupId": "a3a2629d676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "119.0000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 796,
+                    "y": 711
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 726
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "a12fed99d71145bfb440606bdf246f76",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 36,
+                "y": 737
+              },
+              "ymax": {
+                "x": 868,
+                "y": 750
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "4e5da8892bdf465882b3029200a6038b",
+                "groupId": "a3a2629e676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "院W会诊",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 737
+                  },
+                  "ymax": {
+                    "x": 123,
+                    "y": 755
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "0"
+              },
+              {
+                "id": "a3b6f25763774a3ab5a751ec6e444ca2",
+                "groupId": "a3a2629e676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "ZLll1000002",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 736
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 752
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "ac1634a563aa4b98a89c59b9fdc51de0",
+                "groupId": "a3a2629e676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "b69ea77a408d4fe09303f186513436a5",
+                "groupId": "a3a2629e676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "407eb290ea774571a268bee532563b4a",
+                "groupId": "a3a2629e676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "次",
+                "coordinate": {
+                  "xmin": {
+                    "x": 629,
+                    "y": 734
+                  },
+                  "ymax": {
+                    "x": 658,
+                    "y": 752
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "4"
+              },
+              {
+                "id": "48f555cd05d54b9e91d45581caf36a7b",
+                "groupId": "a3a2629e676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "857ebbfc6f4843eb998e926edaff9fb0",
+                "groupId": "a3a2629e676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "8ad706f25f2141a4964e79b7861bbf39",
+                "groupId": "a3a2629e676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "20.0000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 803,
+                    "y": 735
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 750
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "5e583712c4c44546a9749e107636c270",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 43,
+                "y": 761
+              },
+              "ymax": {
+                "x": 868,
+                "y": 774
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "5163052d0ebd4800a4698072c5353a45",
+                "groupId": "a3a2629f676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "院内会诊",
+                "coordinate": {
+                  "xmin": {
+                    "x": 43,
+                    "y": 761
+                  },
+                  "ymax": {
+                    "x": 123,
+                    "y": 778
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "ebc7eef7d75f4c0692a9430365c5a18b",
+                "groupId": "a3a2629f676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "Zlll000002",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 762
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 776
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "afc11f0214a44b598f1afa18eec99084",
+                "groupId": "a3a2629f676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "e0c9937be1a44aceaaeac9f2905cf68b",
+                "groupId": "a3a2629f676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "c6421de6def449ea89f86ab945d0279e",
+                "groupId": "a3a2629f676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "次",
+                "coordinate": {
+                  "xmin": {
+                    "x": 629,
+                    "y": 759
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 777
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "4"
+              },
+              {
+                "id": "3aec765a79fd448487b3da690c3380f3",
+                "groupId": "a3a2629f676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "6255cec00fa64657af1c6475ac60c9e6",
+                "groupId": "a3a2629f676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "e13b3971df114bb9913b8ef028fb66dc",
+                "groupId": "a3a2629f676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "20.0000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 803,
+                    "y": 759
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 774
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "a880473f5dc3469e95be33631ae805c3",
+            "trStyle": "1",
+            "trCoordinate": {
+              "xmin": {
+                "x": 43,
+                "y": 784
+              },
+              "ymax": {
+                "x": 868,
+                "y": 797
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "428516fc105542d29ad8f81627fd9b5e",
+                "groupId": "a3a262a0676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "住院险诊察费",
+                "coordinate": {
+                  "xmin": {
+                    "x": 43,
+                    "y": 784
+                  },
+                  "ymax": {
+                    "x": 144,
+                    "y": 801
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "0"
+              },
+              {
+                "id": "aa4e43c3a4954818b877cc0b854b176d",
+                "groupId": "a3a262a0676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "ZLll0200006",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 785
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 799
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "44dd9f8e3f5d4f74817ae13c005bf372",
+                "groupId": "a3a262a0676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "71ad542ff53746b9a98d356711dee283",
+                "groupId": "a3a262a0676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "7a7cae641a174a0180f261bcbaaeff8b",
+                "groupId": "a3a262a0676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "日",
+                "coordinate": {
+                  "xmin": {
+                    "x": 629,
+                    "y": 783
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 799
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "4"
+              },
+              {
+                "id": "04b2d8072bc546b48a88c69788142bb0",
+                "groupId": "a3a262a0676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "a32ec1f38a3e41b299227642f4b6f20b",
+                "groupId": "a3a262a0676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "daef38137753447184fe395997e6ee70",
+                "groupId": "a3a262a0676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "98.0000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 803,
+                    "y": 783
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 797
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "88e7e4eed6554802a136bc8cf875ab0a",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 43,
+                "y": 808
+              },
+              "ymax": {
+                "x": 868,
+                "y": 821
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "4b182d281f7c42458ddafbeab9251cb5",
+                "groupId": "a3a262a1676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "注食",
+                "coordinate": {
+                  "xmin": {
+                    "x": 43,
+                    "y": 808
+                  },
+                  "ymax": {
+                    "x": 86,
+                    "y": 823
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "0"
+              },
+              {
+                "id": "343188a84149477ca95996ab1ec8e52c",
+                "groupId": "a3a262a1676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "ZLl2080000101",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 808
+                  },
+                  "ymax": {
+                    "x": 383,
+                    "y": 823
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "df6e0c5c0f464ea38ee89be22e1f86fd",
+                "groupId": "a3a262a1676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "f0e50088fd29494f8bb4a6f97b612c2d",
+                "groupId": "a3a262a1676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "b583f6e5d92343bf92a49a231bbe28bc",
+                "groupId": "a3a262a1676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "次",
+                "coordinate": {
+                  "xmin": {
+                    "x": 550,
+                    "y": 805
+                  },
+                  "ymax": {
+                    "x": 673,
+                    "y": 822
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "784fae08adc44143a52048796ee47dd2",
+                "groupId": "a3a262a1676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "31c207905f104f51b18ba3b43768ec9e",
+                "groupId": "a3a262a1676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "4332a961c6ec40ff9cb4d97c5af371fc",
+                "groupId": "a3a262a1676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "3.0000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 810,
+                    "y": 806
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 821
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "5a586321771e4863bbf51afdb47da804",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 36,
+                "y": 830
+              },
+              "ymax": {
+                "x": 868,
+                "y": 844
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "039386b1be4844ae8d3f8ec6899738e7",
+                "groupId": "a3a262a2676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "注食儿科加收",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 830
+                  },
+                  "ymax": {
+                    "x": 152,
+                    "y": 847
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "0"
+              },
+              {
+                "id": "2a0f3945004c40b3a2e2f362e9dd6bd6",
+                "groupId": "a3a262a2676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "ZL12080000101",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 830
+                  },
+                  "ymax": {
+                    "x": 383,
+                    "y": 847
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "667343a4b23f4d31981f42868f4ae11c",
+                "groupId": "a3a262a2676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "6520b649acba495a899746f52338f36a",
+                "groupId": "a3a262a2676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "83038cf6315f40d083d4a748b5d40567",
+                "groupId": "a3a262a2676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "次",
+                "coordinate": {
+                  "xmin": {
+                    "x": 543,
+                    "y": 828
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 847
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "ff9c243aef6541749368c71cc5d902de",
+                "groupId": "a3a262a2676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "49ddc0ffdc26448e9d7049267837e494",
+                "groupId": "a3a262a2676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "fbcbaeb34d4c4fc59b21f2b4287fffa4",
+                "groupId": "a3a262a2676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "0.6000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 810,
+                    "y": 829
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 844
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "656c0a2476994462b3b15ccb91c9e6df",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 36,
+                "y": 216
+              },
+              "ymax": {
+                "x": 868,
+                "y": 228
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "a85b6d4932804ea9897f44d20658595f",
+                "groupId": "a3a21468676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "眼底照相",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 216
+                  },
+                  "ymax": {
+                    "x": 115,
+                    "y": 233
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "101b1e3c58874aa38ec92a54ff90542c",
+                "groupId": "a3a21468676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "Z310300053",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 214
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 231
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "9aea8a7aab6249f6a009cb008a1b1754",
+                "groupId": "a3a21468676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "1ae482b68fba4422a09b367b417b8b43",
+                "groupId": "a3a21468676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "e8e6129b1c0a46cba1b59a808b25a99f",
+                "groupId": "a3a21468676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "只",
+                "coordinate": {
+                  "xmin": {
+                    "x": 543,
+                    "y": 214
+                  },
+                  "ymax": {
+                    "x": 658,
+                    "y": 230
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "0aff0b33cc284482bb3b9c9549f13a27",
+                "groupId": "a3a21468676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "aa88a75290bc4d839ce8544d9ba3fc55",
+                "groupId": "a3a21468676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "62c812ca32994fa78c0e508488b8f629",
+                "groupId": "a3a21468676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "30.0000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 796,
+                    "y": 213
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 228
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "2d872c5ca18043c1931392deea79ed3e",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 43,
+                "y": 855
+              },
+              "ymax": {
+                "x": 868,
+                "y": 868
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "5a9d676bf5424a489229609226444cf9",
+                "groupId": "a3a262a3676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "江药",
+                "coordinate": {
+                  "xmin": {
+                    "x": 43,
+                    "y": 855
+                  },
+                  "ymax": {
+                    "x": 86,
+                    "y": 871
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "0"
+              },
+              {
+                "id": "f8c5225349ed452d98d8e6041a2dfcd2",
+                "groupId": "a3a262a3676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "ZL12080000102",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 853
+                  },
+                  "ymax": {
+                    "x": 383,
+                    "y": 870
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "33e542728ef2475e9d2ba3c1db36a588",
+                "groupId": "a3a262a3676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "dbfa7086adb4409cba3df96f2a7fa5b8",
+                "groupId": "a3a262a3676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "6e2e34a63cc7453ab73b7ecdc2715969",
+                "groupId": "a3a262a3676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "次",
+                "coordinate": {
+                  "xmin": {
+                    "x": 535,
+                    "y": 852
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 874
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "be9a074cdb5048d4a06acdcbafd7d303",
+                "groupId": "a3a262a3676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "82beae7d588b47ccb5fc3d83f20b4329",
+                "groupId": "a3a262a3676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "cddc991971ba483d9252c1f8194248f2",
+                "groupId": "a3a262a3676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "6.0000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 818,
+                    "y": 852
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 868
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "b2cb0c8dc45f4988b71263cc471d32e3",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 43,
+                "y": 877
+              },
+              "ymax": {
+                "x": 868,
+                "y": 892
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "8693fca8b040441aa03c3ab8076d5c41",
+                "groupId": "a3a262a4676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "注药儿科加收",
+                "coordinate": {
+                  "xmin": {
+                    "x": 43,
+                    "y": 877
+                  },
+                  "ymax": {
+                    "x": 144,
+                    "y": 895
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "0"
+              },
+              {
+                "id": "8cb6b9ee2bc04d3689e6da7f19ab70e1",
+                "groupId": "a3a262a4676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "Z112080000102",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 879
+                  },
+                  "ymax": {
+                    "x": 383,
+                    "y": 894
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "1"
+              },
+              {
+                "id": "ce841c5388f34eddb4de39031e96f05a",
+                "groupId": "a3a262a4676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "bc69edce772e431e9c5c25349a98501b",
+                "groupId": "a3a262a4676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "4bfea782907448d7bd160b07b0054b35",
+                "groupId": "a3a262a4676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "次",
+                "coordinate": {
+                  "xmin": {
+                    "x": 535,
+                    "y": 875
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 895
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "61cbda477a6144eaa2bf6e7d777c837a",
+                "groupId": "a3a262a4676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "93c809e1880b4da49d2086de87d49894",
+                "groupId": "a3a262a4676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "51fc3672e3d44da78381bcc72f7fd4a8",
+                "groupId": "a3a262a4676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "1.2000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 810,
+                    "y": 878
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 892
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "0e1643acf9d64477b2232815d9196f52",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 43,
+                "y": 901
+              },
+              "ymax": {
+                "x": 868,
+                "y": 916
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "b17c6589932b4170bd08c4ebb45b04fb",
+                "groupId": "a3a262a5676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "组织多普勒显象（TDI）",
+                "coordinate": {
+                  "xmin": {
+                    "x": 43,
+                    "y": 901
+                  },
+                  "ymax": {
+                    "x": 202,
+                    "y": 919
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "1b50180cbc9f4944a7fe552b1d8559c8",
+                "groupId": "a3a262a5676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "Z220700004",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 902
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 918
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "48d68bf51f734254ae7378d355c49d94",
+                "groupId": "a3a262a5676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "f570091516654ba9aadd1f717b16bc75",
+                "groupId": "a3a262a5676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "ef002f2d4f5d4a5f89b4e69816d99fd8",
+                "groupId": "a3a262a5676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "次",
+                "coordinate": {
+                  "xmin": {
+                    "x": 521,
+                    "y": 900
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 918
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "8d0af4f1b070409fa5dd1d2c773257d0",
+                "groupId": "a3a262a5676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "e898cf1adf43417f8165951a2f5cb991",
+                "groupId": "a3a262a5676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "1cf4ba67a74d49379f40924506dd9ccf",
+                "groupId": "a3a262a5676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "0000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 825,
+                    "y": 901
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 916
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "74feb14722004f138f51a28acc77e4a2",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 28,
+                "y": 925
+              },
+              "ymax": {
+                "x": 876,
+                "y": 940
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "7ce86d3764cb4029ba56bc2c99df1bb8",
+                "groupId": "a3a262a6676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "左心功能测定",
+                "coordinate": {
+                  "xmin": {
+                    "x": 28,
+                    "y": 925
+                  },
+                  "ymax": {
+                    "x": 152,
+                    "y": 944
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "d50cea5cbb264b7996471f8fa2b1d38e",
+                "groupId": "a3a262a6676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "ZL22060001003",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 925
+                  },
+                  "ymax": {
+                    "x": 383,
+                    "y": 943
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "1ec4ba066ec94690bd7470f7114d66fa",
+                "groupId": "a3a262a6676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "237cb9cb0deb40ae907e511bdaf72c33",
+                "groupId": "a3a262a6676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "25e49976cd5d42d59a46da3b2b7b0150",
+                "groupId": "a3a262a6676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "次",
+                "coordinate": {
+                  "xmin": {
+                    "x": 528,
+                    "y": 923
+                  },
+                  "ymax": {
+                    "x": 673,
+                    "y": 945
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "2f57a7b1a13742b09c57791263f29f6f",
+                "groupId": "a3a262a6676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "9d5c3bd123fc4105a6c6dc5498e40296",
+                "groupId": "a3a262a6676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "53a6dce8a5394a67a9419fa1f6d732a5",
+                "groupId": "a3a262a6676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "8.000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 781,
+                    "y": 920
+                  },
+                  "ymax": {
+                    "x": 876,
+                    "y": 940
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "be6a2e252c634f4fa498eecfdb5c67d5",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 702,
+                "y": 955
+              },
+              "ymax": {
+                "x": 876,
+                "y": 983
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "7a98c941373443f6a4920c19f7bcb0de",
+                "groupId": "a3a262a7676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "0"
+              },
+              {
+                "id": "172804a9e39e493a8ee8eee51a05aeb2",
+                "groupId": "a3a262a7676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "1"
+              },
+              {
+                "id": "50d3cb5f606841c89fc7de19d75bac08",
+                "groupId": "a3a262a7676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "dfcfca238d234b27a7d218193fb934db",
+                "groupId": "a3a262a7676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "66a0e221195e4d5583513b227c48f334",
+                "groupId": "a3a262a7676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "4"
+              },
+              {
+                "id": "7eac5f69b33746859cf64046077dac29",
+                "groupId": "a3a262a7676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "df69a48080bf4e418abe50c693eb60cf",
+                "groupId": "a3a262a7676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "b811b1e467b44c7b832bc493d99709c5",
+                "groupId": "a3a262a7676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "01.08005.3100",
+                "coordinate": {
+                  "xmin": {
+                    "x": 781,
+                    "y": 940
+                  },
+                  "ymax": {
+                    "x": 876,
+                    "y": 983
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "c0692b2536f14f489b94534cf057eeb5",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 36,
+                "y": 238
+              },
+              "ymax": {
+                "x": 868,
+                "y": 252
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "6a6b97fb28964cfa8bd4c7c26fdada7d",
+                "groupId": "a3a21469676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "眼前段照相",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 238
+                  },
+                  "ymax": {
+                    "x": 130,
+                    "y": 257
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "48ca01a3347249899789ac49f9b7e646",
+                "groupId": "a3a21469676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "ZL310300052",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 239
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 255
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "7d5527dd567a44b68ce651aa75994c2f",
+                "groupId": "a3a21469676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "9a4c30325ae847ac910213c46b22152b",
+                "groupId": "a3a21469676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "db4f8be2c8bf4a53ab362f32d8651ad4",
+                "groupId": "a3a21469676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "只",
+                "coordinate": {
+                  "xmin": {
+                    "x": 535,
+                    "y": 237
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 257
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "8c568d23c6ea43fa8d3156d6026b4709",
+                "groupId": "a3a21469676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "e75e6ffb0bc4456388a60dba73b0a7ed",
+                "groupId": "a3a21469676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "3accc7f9cfb84ab0ac339a8b74bd6c7c",
+                "groupId": "a3a21469676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "20.0000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 803,
+                    "y": 237
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 252
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "c9d55149c4a5431194dda22d1ebaa54f",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 36,
+                "y": 263
+              },
+              "ymax": {
+                "x": 868,
+                "y": 275
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "45fcfa101c7340319cdf8fbdb99a5eb7",
+                "groupId": "a3a23b7a676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "验光",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 263
+                  },
+                  "ymax": {
+                    "x": 86,
+                    "y": 279
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "1a54e9aa4f064efe9b0f109290e3adba",
+                "groupId": "a3a23b7a676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "ZL310300007",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 263
+                  },
+                  "ymax": {
+                    "x": 362,
+                    "y": 278
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "d924a9b06953410d9b315905d0efba33",
+                "groupId": "a3a23b7a676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "5b91bef8a1da421e8e14179918d4d573",
+                "groupId": "a3a23b7a676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "0835bd3406a144fda08ded7316d1794e",
+                "groupId": "a3a23b7a676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "项",
+                "coordinate": {
+                  "xmin": {
+                    "x": 528,
+                    "y": 260
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 280
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "efaedd6db90b47c5ad211227c234868f",
+                "groupId": "a3a23b7a676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "ac0f8f1c2ae1425aaaee9028db7f48d1",
+                "groupId": "a3a23b7a676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "b13cdadb51284db7976339c56621dc79",
+                "groupId": "a3a23b7a676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "12.0000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 803,
+                    "y": 261
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 275
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "650dc9a8a95f4819ab3ea1e1e635f247",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 36,
+                "y": 284
+              },
+              "ymax": {
+                "x": 868,
+                "y": 298
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "62620bd255b44c90a0bc8a649059c47c",
+                "groupId": "a3a23b7b676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "一般细菌培养及鉴定",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 284
+                  },
+                  "ymax": {
+                    "x": 188,
+                    "y": 304
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "00d5fcf179fc493b9da28aea94c17d2e",
+                "groupId": "a3a23b7b676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "Z1250501009",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 286
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 301
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "1"
+              },
+              {
+                "id": "268c5ba8447d4ecbad3d4e967a7632c7",
+                "groupId": "a3a23b7b676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "5ffcccfd19e443f1941317012c516b4a",
+                "groupId": "a3a23b7b676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "939be770ad04496297d4cf386461264b",
+                "groupId": "a3a23b7b676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "项",
+                "coordinate": {
+                  "xmin": {
+                    "x": 521,
+                    "y": 283
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 302
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "32c014cd47bb41e7acf618b9ad8d72b2",
+                "groupId": "a3a23b7b676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "68e4ffe6a6cc4f65b73814ec452689e0",
+                "groupId": "a3a23b7b676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "9d4cfafb7af44158a48c964ef79fad15",
+                "groupId": "a3a23b7b676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "35.0000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 796,
+                    "y": 284
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 298
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "a56e7963445941169a514a8355722ebe",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 36,
+                "y": 308
+              },
+              "ymax": {
+                "x": 868,
+                "y": 321
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "bbdc38e239bb4ad2bf0df9b21a86aa76",
+                "groupId": "a3a23b7c676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "一般细菌涂片检查",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 308
+                  },
+                  "ymax": {
+                    "x": 188,
+                    "y": 326
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "fcceb0e3597b40a9897fe4145cdefa9f",
+                "groupId": "a3a23b7c676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "ZL250501001",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 308
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 324
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "b5a92ef584044ba78dd6b107f20c9a70",
+                "groupId": "a3a23b7c676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "9c6029917ac04fe38566e1a9d9cb22b8",
+                "groupId": "a3a23b7c676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "ab411cfaa9d641b8bcb545bb00c778c0",
+                "groupId": "a3a23b7c676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "项",
+                "coordinate": {
+                  "xmin": {
+                    "x": 521,
+                    "y": 305
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 323
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "83365392281d4563af853078a6c6374b",
+                "groupId": "a3a23b7c676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "8654a7782c404a2fa28e151e5533a38c",
+                "groupId": "a3a23b7c676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "c04dc1a8ec2c4e4f9b1533bbbd11df34",
+                "groupId": "a3a23b7c676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "7.0000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 810,
+                    "y": 307
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 321
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "8a0e28b3decf45b6aa7dc6c26d4a6187",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 28,
+                "y": 332
+              },
+              "ymax": {
+                "x": 868,
+                "y": 344
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "c87c8e49c75846bb832679c1e6767afd",
+                "groupId": "a3a23b7d676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "一般专项护理",
+                "coordinate": {
+                  "xmin": {
+                    "x": 28,
+                    "y": 332
+                  },
+                  "ymax": {
+                    "x": 144,
+                    "y": 350
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "6949ee9a1b214af2a2af90cafb6d0b56",
+                "groupId": "a3a23b7d676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "ZL120100014",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 333
+                  },
+                  "ymax": {
+                    "x": 369,
+                    "y": 348
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "77dd217ec5424f14ba9784663737d7fc",
+                "groupId": "a3a23b7d676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "4d1332c32aa5432993347b3712164983",
+                "groupId": "a3a23b7d676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "ccbc38fa867847959f58a01dfd5e521d",
+                "groupId": "a3a23b7d676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "次",
+                "coordinate": {
+                  "xmin": {
+                    "x": 543,
+                    "y": 329
+                  },
+                  "ymax": {
+                    "x": 658,
+                    "y": 347
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "9d10a16aeb53404c903f99f54e2fe894",
+                "groupId": "a3a23b7d676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "f01d86bdf7804b4fa2ac92746f80fe19",
+                "groupId": "a3a23b7d676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "04d3a1cab3a9491088fefbaf47034391",
+                "groupId": "a3a23b7d676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "9.0000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 810,
+                    "y": 330
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 344
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "7"
+              }
+            ]
+          },
+          {
+            "id": "953328109a6b48eabffe6926958c5551",
+            "trStyle": "0",
+            "trCoordinate": {
+              "xmin": {
+                "x": 36,
+                "y": 355
+              },
+              "ymax": {
+                "x": 868,
+                "y": 369
+              }
+            },
+            "tdDomain": [
+              {
+                "id": "191484586c1546d8905222dfcdf0bf6c",
+                "groupId": "a3a23b7e676011eaaebffa163e4f46f3",
+                "key": "medicineName",
+                "value": "一般专项护理儿科加收",
+                "coordinate": {
+                  "xmin": {
+                    "x": 36,
+                    "y": 355
+                  },
+                  "ymax": {
+                    "x": 209,
+                    "y": 374
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "0"
+              },
+              {
+                "id": "dcf715f9655d4ebb9793945efd3180da",
+                "groupId": "a3a23b7e676011eaaebffa163e4f46f3",
+                "key": "medicineNode",
+                "value": "ZZF000000000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 267,
+                    "y": 357
+                  },
+                  "ymax": {
+                    "x": 383,
+                    "y": 372
+                  }
+                },
+                "updateFlag": "false",
+                "orderBy": "1"
+              },
+              {
+                "id": "fbcdca3737bd4321b87d86e5b1f862b9",
+                "groupId": "a3a23b7e676011eaaebffa163e4f46f3",
+                "key": "medicineType",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "2"
+              },
+              {
+                "id": "6d995537e2fb4f118138fb8a48955f7b",
+                "groupId": "a3a23b7e676011eaaebffa163e4f46f3",
+                "key": "specs",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "3"
+              },
+              {
+                "id": "ef71b572d4974f0eae628623789dae92",
+                "groupId": "a3a23b7e676011eaaebffa163e4f46f3",
+                "key": "unit",
+                "value": "次",
+                "coordinate": {
+                  "xmin": {
+                    "x": 543,
+                    "y": 354
+                  },
+                  "ymax": {
+                    "x": 666,
+                    "y": 373
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "4"
+              },
+              {
+                "id": "31e5d97a7f92439e8cd238e4df993435",
+                "groupId": "a3a23b7e676011eaaebffa163e4f46f3",
+                "key": "price",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "5"
+              },
+              {
+                "id": "f7744bc5c0c04bd9bec894891b37ff2c",
+                "groupId": "a3a23b7e676011eaaebffa163e4f46f3",
+                "key": "number",
+                "value": null,
+                "coordinate": null,
+                "updateFlag": null,
+                "orderBy": "6"
+              },
+              {
+                "id": "a449d6ffb5844748a1ba373a9f56ebad",
+                "groupId": "a3a23b7e676011eaaebffa163e4f46f3",
+                "key": "cost",
+                "value": "1.8000",
+                "coordinate": {
+                  "xmin": {
+                    "x": 810,
+                    "y": 355
+                  },
+                  "ymax": {
+                    "x": 868,
+                    "y": 369
+                  }
+                },
+                "updateFlag": "true",
+                "orderBy": "7"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "message": null
+}
