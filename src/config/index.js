@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-08-04 09:04:44
- * @LastEditTime: 2020-10-21 14:02:06
+ * @LastEditTime: 2020-11-04 21:20:35
  * @LastEditors: Clarissa
  * @Description: In User Settings Edit
  * @FilePath: \frontend-web-dev20200525-de0e7f353523879bd322d438277d27acc05193b6\src\config\index.js
@@ -26,10 +26,7 @@ export const statusCode = {
 }
 
 export const projectTitle = '智能医保报销助手'
-// export const baseURL = 'http://192.168.3.130:8088'
-// export const baseURL = 'http://192.168.3.196:8088'
-// export const baseURL = 'http://192.168.2.212'
-export const baseURL = 'http://192.168.199.207:9999'
+export const baseURL = '暂无地址'
 
 // KEYS
 export const KEYS = {
